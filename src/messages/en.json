@@ -1,0 +1,119 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products",
+    "milkCollection": "Milk & Credit",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "language": "नेपाली"
+  },
+  "home": {
+    "title": "Hare Krishna Krishi tatha Pashu Panchhi Farm",
+    "subtitle": "Fresh, Pure & Trusted Cow Milk and Dairy Products from Our Village",
+    "description": "A registered local farm providing quality dairy with honesty and care.",
+    "callNow": "📞 Call Now",
+    "whatsapp": "💬 WhatsApp Us",
+    "aboutPreview": "We are a registered, small-scale village farm focused on quality rather than quantity. Currently, we care for around 10 cows and operate a small dairy unit. We also support local farmers by collecting fresh milk when available.",
+    "whatWeOffer": "What We Offer",
+    "offers": [
+      "🐄 Fresh Cow Milk",
+      "🥛 Traditional Dairy Products",
+      "🤝 Monthly Credit Facility for Locals",
+      "📍 Farm Pickup Available"
+    ],
+    "trustTitle": "Why Trust Us",
+    "trustDescription": "Fixed pricing, transparent process, and long-term trust with village customers."
+  },
+  "about": {
+    "title": "About Us",
+    "storyTitle": "Our Story",
+    "story": "Hare Krishna Krishi tatha Pashu Panchhi Farm was started to provide clean and reliable dairy products to our local community. We believe small farms can deliver better quality, care, and honesty than large commercial setups.\n\nOur dairy operates with fixed pricing, simple record-keeping, and a monthly credit system trusted by village families.",
+    "missionTitle": "Our Mission",
+    "mission": "To serve our village with fresh, pure dairy products through honest practices and personal care.",
+    "valuesTitle": "Our Values",
+    "values": [
+      "Quality over Quantity",
+      "Honesty in Every Transaction",
+      "Community First",
+      "Traditional Methods",
+      "Transparent Pricing"
+    ]
+  },
+  "products": {
+    "title": "Our Products",
+    "subtitle": "All products are prepared using traditional methods with fixed pricing.",
+    "items": [
+      {
+        "name": "Fresh Cow Milk",
+        "description": "Pure, fresh milk collected daily"
+      },
+      {
+        "name": "Dahi (Curd)",
+        "description": "Traditional yogurt made with care"
+      },
+      {
+        "name": "Ghee",
+        "description": "Pure clarified butter"
+      },
+      {
+        "name": "Paneer",
+        "description": "Fresh cottage cheese"
+      },
+      {
+        "name": "Butter",
+        "description": "Traditional butter"
+      },
+      {
+        "name": "Kuraune",
+        "description": "Traditional cheese"
+      },
+      {
+        "name": "Mohi (Buttermilk)",
+        "description": "Fresh buttermilk"
+      }
+    ],
+    "priceNote": "Contact us for current pricing"
+  },
+  "milkCollection": {
+    "title": "Milk Collection & Credit System",
+    "collectionTitle": "Fresh Milk Collection",
+    "collectionDescription": "In addition to milk from our own cows, we collect fresh milk from nearby farms and village households when required. All milk is checked before storage and processing.",
+    "creditTitle": "Monthly Credit Facility",
+    "creditDescription": "Village customers can take milk and dairy products on monthly credit. Records are maintained manually in a notebook, ensuring transparency and mutual trust.",
+    "processTitle": "How It Works",
+    "process": [
+      "Fresh milk arrives daily from our farm and trusted local sources",
+      "Quality check and proper storage",
+      "Daily delivery to your doorstep or farm pickup",
+      "Monthly billing with credit option for trusted customers",
+      "Transparent record keeping in our farm notebook"
+    ]
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "All photos are from our real farm and dairy operations.",
+    "sections": [
+      "Farm & Cows",
+      "Dairy Processing",
+      "Milk Collection",
+      "Daily Farm Life"
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "location": "📍 Location",
+    "phone": "📞 Phone",
+    "whatsappAvailable": "💬 WhatsApp Available",
+    "payment": "💰 Payment: Cash / Online",
+    "timing": "🕘 Morning & Evening Pickup",
+    "getInTouch": "Get In Touch",
+    "messagePlaceholder": "Hello, I want to know more about Hare Krishna Dairy Farm"
+  },
+  "footer": {
+    "farmName": "Hare Krishna Krishi tatha Pashu Panchhi Farm",
+    "registeredDairy": "Registered Dairy & Farm",
+    "tagline": "Pure Milk from Our Village to Your Home",
+    "allRightsReserved": "All rights reserved"
+  }
+}
