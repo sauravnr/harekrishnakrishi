@@ -29,7 +29,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="bg-gradient-to-r from-green-800 to-green-700 text-white shadow-lg sticky top-0 z-50">
+    <nav className="bg-gradient-to-r from-green-900 to-green-800 text-white shadow-lg sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           {/* Logo */}
@@ -37,7 +37,7 @@ export default function Navbar() {
             <span className="text-3xl">🐄</span>
             <div className="hidden sm:block">
               <h1 className="text-sm font-bold leading-tight">Hare Krishna</h1>
-              <p className="text-xs text-green-100">Dairy Farm</p>
+              <p className="text-xs text-green-200">Dairy Farm</p>
             </div>
           </Link>
 
@@ -47,7 +47,7 @@ export default function Navbar() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="px-4 py-2 rounded-lg hover:bg-amber-800 transition text-sm font-semibold"
+                className="px-4 py-2 rounded-lg hover:bg-white/10 hover:text-amber-100 transition text-sm font-semibold"
               >
                 {item.label}
               </Link>
@@ -95,7 +95,7 @@ export default function Navbar() {
                   key={item.href}
                   href={item.href}
                   onClick={() => setIsOpen(false)}
-                  className="px-4 py-2 rounded-lg hover:bg-green-900 transition text-sm font-semibold"
+                  className="px-4 py-2 rounded-lg hover:bg-white/10 hover:text-amber-100 transition text-sm font-semibold"
                 >
                   {item.label}
                 </Link>

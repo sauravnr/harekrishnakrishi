@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gradient-to-br from-slate-50 via-white to-slate-50`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gradient-to-b from-[#f0e2c7] via-[#f7ead4] to-[#dff0e6]`}
       >
         {children}
       </body>

@@ -41,9 +41,13 @@ export default async function LocaleLayout({
 
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
-      <Navbar />
-      <main className="min-h-screen">{children}</main>
-      <Footer />
+      <div className="min-h-screen flex flex-col bg-gradient-to-b from-[#f1e0c2] via-[#f6ead2] to-[#d8eadf]">
+        <Navbar />
+        <main className="flex-1">
+          {children}
+        </main>
+        <Footer />
+      </div>
     </NextIntlClientProvider>
   );
 }

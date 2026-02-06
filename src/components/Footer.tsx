@@ -58,9 +58,9 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-bold mb-4">Contact Info</h4>
             <div className="space-y-2 text-gray-400 text-sm">
-              <p>📍 [Your Village, District]</p>
-              <p>📞 +977 XXXX XXXX</p>
-              <p>💬 WhatsApp Available</p>
+              <p>📍 Urlabari-03, Mangalbare, Morang</p>
+              <p>📞 +977 9811062363</p>
+              <p>💬 WhatsApp: +977 9827309655</p>
               <p>⏰ 5 AM - 8 PM Daily</p>
             </div>
           </div>

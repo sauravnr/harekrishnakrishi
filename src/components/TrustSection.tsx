@@ -7,7 +7,7 @@ export default function TrustSection() {
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-16">
-      <div className="bg-gradient-to-r from-blue-50 to-slate-50 p-12 rounded-lg border-l-4 border-green-700 shadow-lg">
+      <div className="bg-gradient-to-r from-green-50 via-white to-amber-50 p-12 rounded-lg border-l-4 border-green-700 shadow-lg">
         <h2 className="text-3xl md:text-4xl font-bold text-green-800 mb-4 flex items-center">
           <span className="text-4xl mr-4">🤝</span>
           {t("trustTitle")}

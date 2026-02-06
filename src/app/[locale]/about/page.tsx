@@ -9,13 +9,13 @@ export default function AboutPage() {
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-16">
-      <h1 className="text-4xl md:text-5xl font-bold text-green-800 mb-12 text-center">
+      <h1 className="text-4xl md:text-5xl font-bold text-green-900 mb-12 text-center">
         {t("title")}
       </h1>
 
       <div className="grid md:grid-cols-2 gap-12 mb-16">
-        <div className="bg-white p-8 rounded-lg shadow-lg border-l-4 border-green-700">
-          <h2 className="text-2xl font-bold text-green-800 mb-4">
+        <div className="bg-[#fffaf2] p-8 rounded-lg shadow-lg border-l-4 border-green-700">
+          <h2 className="text-2xl font-bold text-green-900 mb-4">
             {t("storyTitle")}
           </h2>
           <p className="text-gray-900 whitespace-pre-line leading-relaxed">
@@ -24,15 +24,15 @@ export default function AboutPage() {
         </div>
 
         <div className="space-y-8">
-          <div className="bg-green-50 p-8 rounded-lg border-l-4 border-green-700">
-            <h2 className="text-2xl font-bold text-green-800 mb-3">
+          <div className="bg-amber-50 p-8 rounded-lg border-l-4 border-green-700">
+            <h2 className="text-2xl font-bold text-green-900 mb-3">
               {t("missionTitle")}
             </h2>
             <p className="text-gray-900">{t("mission")}</p>
           </div>
 
-          <div className="bg-green-100 p-8 rounded-lg">
-            <h2 className="text-2xl font-bold text-green-800 mb-4">
+          <div className="bg-amber-100 p-8 rounded-lg">
+            <h2 className="text-2xl font-bold text-green-900 mb-4">
               {t("valuesTitle")}
             </h2>
             <ul className="space-y-2">

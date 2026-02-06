@@ -7,7 +7,7 @@ export default function AboutPreview() {
   const t = useTranslations("home");
 
   return (
-    <div className="bg-white py-16">
+    <div className="bg-transparent py-16">
       <div className="max-w-6xl mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Icon/Image */}
