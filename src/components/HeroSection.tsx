@@ -42,7 +42,7 @@ export default function HeroSection() {
             <div className="text-center">
               <div className="text-9xl md:text-[150px]">🐄</div>
               <p className="text-green-100 mt-4 text-lg">
-                Happy & Healthy Cows
+                {t("heroNote")}
               </p>
             </div>
           </div>

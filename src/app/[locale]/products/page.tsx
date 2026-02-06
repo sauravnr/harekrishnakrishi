@@ -1,11 +1,16 @@
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 
 export async function generateStaticParams() {
   return [{ locale: "en" }, { locale: "ne" }];
 }
 
-export default function ProductsPage() {
-  const t = useTranslations("products");
+export default async function ProductsPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "products" });
   const items = t.raw("items" as any);
 
   return (
@@ -39,7 +44,7 @@ export default function ProductsPage() {
           href="tel:+9779811062363"
           className="bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition font-semibold"
         >
-          📞 Call for Pricing
+          📞 {t("callForPricing")}
         </a>
       </div>
     </div>

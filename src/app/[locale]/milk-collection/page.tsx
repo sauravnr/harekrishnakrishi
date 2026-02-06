@@ -1,11 +1,16 @@
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 
 export async function generateStaticParams() {
   return [{ locale: "en" }, { locale: "ne" }];
 }
 
-export default function MilkCollectionPage() {
-  const t = useTranslations("milkCollection");
+export default async function MilkCollectionPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "milkCollection" });
   const process = t.raw("process" as any);
 
   return (

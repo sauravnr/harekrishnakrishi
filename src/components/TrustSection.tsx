@@ -17,15 +17,21 @@ export default function TrustSection() {
         <div className="mt-8 grid md:grid-cols-3 gap-6">
           <div className="text-center">
             <div className="text-5xl mb-2">💚</div>
-            <p className="font-semibold text-gray-900">Honest Pricing</p>
+            <p className="font-semibold text-gray-900">
+              {t("trustPointHonest")}
+            </p>
           </div>
           <div className="text-center">
             <div className="text-5xl mb-2">📋</div>
-            <p className="font-semibold text-gray-900">Transparent Process</p>
+            <p className="font-semibold text-gray-900">
+              {t("trustPointTransparent")}
+            </p>
           </div>
           <div className="text-center">
             <div className="text-5xl mb-2">👥</div>
-            <p className="font-semibold text-gray-900">Village Family</p>
+            <p className="font-semibold text-gray-900">
+              {t("trustPointCommunity")}
+            </p>
           </div>
         </div>
       </div>

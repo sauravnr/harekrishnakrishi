@@ -6,15 +6,19 @@
     "milkCollection": "Milk & Credit",
     "gallery": "Gallery",
     "contact": "Contact",
+    "subtitle": "Dairy Farm",
     "language": "नेपाली"
   },
   "home": {
-    "title": "Hare Krishna Krishi tatha Pashu Panchhi Farm",
+    "title": "HAREKRISHNA KRISHI TATHA PASU PANCHHI FARM",
     "subtitle": "Fresh, Pure & Trusted Cow Milk and Dairy Products from Our Village",
     "description": "A registered local farm providing quality dairy with honesty and care.",
     "callNow": "📞 Call Now",
     "whatsapp": "💬 WhatsApp Us",
-    "aboutPreview": "We are a registered, small-scale village farm focused on quality rather than quantity. Currently, we care for around 10 cows and operate a small dairy unit. We also support local farmers by collecting fresh milk when available.",
+    "aboutPreviewTitle": "Who Are We?",
+    "aboutPreview": "We are a registered village farm focused on purity, honesty, and consistent quality. Established in 2020, our family has cared for our cows and prepared dairy using traditional methods. We also support nearby farmers by collecting fresh milk when available, keeping everything transparent and reliable.",
+    "aboutPreviewCta": "Learn More About Us →",
+    "heroNote": "Happy & Healthy Cows",
     "whatWeOffer": "What We Offer",
     "offers": [
       "🐄 Fresh Cow Milk",
@@ -23,14 +27,17 @@
       "📍 Farm Pickup Available"
     ],
     "trustTitle": "Why Trust Us",
-    "trustDescription": "Fixed pricing, transparent process, and long-term trust with village customers."
+    "trustDescription": "Fixed pricing, transparent process, and long-term trust with village customers.",
+    "trustPointHonest": "Honest Pricing",
+    "trustPointTransparent": "Transparent Process",
+    "trustPointCommunity": "Village Family"
   },
   "about": {
     "title": "About Us",
     "storyTitle": "Our Story",
-    "story": "Hare Krishna Krishi tatha Pashu Panchhi Farm was started to provide clean and reliable dairy products to our local community. We believe small farms can deliver better quality, care, and honesty than large commercial setups.\n\nOur dairy operates with fixed pricing, simple record-keeping, and a monthly credit system trusted by village families.",
+    "story": "Hare Krishna Krishi Tatha Pasu Panchhi Farm was established in 2020 to provide clean and reliable dairy products to our local community. We believe small farms can deliver better quality, care, and honesty than large commercial setups.\n\nFrom the beginning, we have followed traditional methods, careful handling, and fixed pricing so our neighbors can trust us. Along with milk from our own cows, we also work with local farmers when needed, making sure quality checks and fair treatment are always maintained.\n\nOur dairy operates with simple record keeping, a monthly credit system for village families, and a commitment to transparency in every transaction.",
     "missionTitle": "Our Mission",
-    "mission": "To serve our village with fresh, pure dairy products through honest practices and personal care.",
+    "mission": "To serve our village with fresh, pure dairy products through honest practices, traditional methods, and personal care. We aim to keep pricing fair, maintain trust with local families, and support nearby farmers whenever possible.",
     "valuesTitle": "Our Values",
     "values": [
       "Quality over Quantity",
@@ -73,7 +80,8 @@
         "description": "Fresh buttermilk"
       }
     ],
-    "priceNote": "Contact us for current pricing"
+    "priceNote": "Contact us for current pricing",
+    "callForPricing": "Call for Pricing"
   },
   "milkCollection": {
     "title": "Milk Collection & Credit System",
@@ -98,7 +106,10 @@
       "Dairy Processing",
       "Milk Collection",
       "Daily Farm Life"
-    ]
+    ],
+    "comingSoon": "Coming soon with real farm photos",
+    "ctaText": "📸 Have photos to share? Contact us to feature your farm images!",
+    "sendPhotos": "Send Photos"
   },
   "contact": {
     "title": "Contact Us",
@@ -108,12 +119,21 @@
     "payment": "💰 Payment: Cash / Online",
     "timing": "🕘 Morning & Evening Pickup",
     "getInTouch": "Get In Touch",
-    "messagePlaceholder": "Hello, I want to know more about Hare Krishna Dairy Farm"
+    "messagePlaceholder": "Hello, I want to know more about Hare Krishna Krishi Tatha Pasu Panchhi Farm",
+    "noteLabel": "Note:",
+    "bestTimeNote": "Best time to reach us is early morning (5-8 AM) or evening (4-7 PM)"
   },
   "footer": {
-    "farmName": "Hare Krishna Krishi tatha Pashu Panchhi Farm",
+    "farmName": "Hare Krishna Krishi Tatha Pasu Panchhi Farm",
     "registeredDairy": "Registered Dairy & Farm",
     "tagline": "Pure Milk from Our Village to Your Home",
-    "allRightsReserved": "All rights reserved"
+    "allRightsReserved": "All rights reserved",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Info",
+    "builtBy": "Built by SNR",
+    "locationLine": "📍 Urlabari-03, Mangalbare, Morang",
+    "phoneLine": "📞 +977 9811062363",
+    "whatsappLine": "💬 WhatsApp: +977 9827309655",
+    "hoursLine": "⏰ 5 AM - 8 PM Daily"
   }
 }

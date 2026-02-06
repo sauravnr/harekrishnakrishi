@@ -1,11 +1,16 @@
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 
 export async function generateStaticParams() {
   return [{ locale: "en" }, { locale: "ne" }];
 }
 
-export default function GalleryPage() {
-  const t = useTranslations("gallery");
+export default async function GalleryPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "gallery" });
   const sections = t.raw("sections" as any);
 
   const placeholders = ["🐄", "🥛", "👨‍🌾", "🌾", "📸", "🎬"];
@@ -33,7 +38,7 @@ export default function GalleryPage() {
             <div className="p-6">
               <h3 className="text-xl font-bold text-green-800">{section}</h3>
               <p className="text-sm text-gray-800 mt-2">
-                Coming soon with real farm photos
+                {t("comingSoon")}
               </p>
             </div>
           </div>
@@ -41,14 +46,12 @@ export default function GalleryPage() {
       </div>
 
       <div className="mt-12 bg-amber-50 p-8 rounded-lg text-center border-l-4 border-green-600">
-        <p className="text-gray-700 mb-4">
-          📸 Have photos to share? Contact us to feature your farm images!
-        </p>
+        <p className="text-gray-700 mb-4">{t("ctaText")}</p>
         <a
           href="mailto:harekrishnakrishi@gmail.com"
           className="bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition font-semibold"
         >
-          Send Photos
+          {t("sendPhotos")}
         </a>
       </div>
     </div>

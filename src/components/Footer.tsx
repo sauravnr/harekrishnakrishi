@@ -5,11 +5,15 @@ import Link from "next/link";
 
 export default function Footer() {
   const t = useTranslations("footer");
+  const tNav = useTranslations("nav");
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gray-800 text-white mt-16">
-      <div className="max-w-6xl mx-auto px-4 py-12">
+    <footer className="relative mt-16 overflow-hidden bg-gray-800 text-white">
+      <div className="h-1 w-full bg-gradient-to-r from-amber-400 via-green-500 to-amber-400" />
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(34,197,94,0.14),transparent_45%)]" />
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(251,191,36,0.12),transparent_45%)]" />
+      <div className="relative max-w-6xl mx-auto px-4 py-12">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* About */}
           <div>
@@ -23,16 +27,16 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-lg font-bold mb-4">Quick Links</h4>
+            <h4 className="text-lg font-bold mb-4">{t("quickLinks")}</h4>
             <ul className="space-y-2 text-gray-400 text-sm">
               <li>
                 <Link href="/" className="hover:text-green-600 transition">
-                  Home
+                  {tNav("home")}
                 </Link>
               </li>
               <li>
                 <Link href="/about" className="hover:text-green-600 transition">
-                  About
+                  {tNav("about")}
                 </Link>
               </li>
               <li>
@@ -40,7 +44,7 @@ export default function Footer() {
                   href="/products"
                   className="hover:text-green-600 transition"
                 >
-                  Products
+                  {tNav("products")}
                 </Link>
               </li>
               <li>
@@ -48,7 +52,7 @@ export default function Footer() {
                   href="/contact"
                   className="hover:text-green-600 transition"
                 >
-                  Contact
+                  {tNav("contact")}
                 </Link>
               </li>
             </ul>
@@ -56,24 +60,22 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h4 className="text-lg font-bold mb-4">Contact Info</h4>
+            <h4 className="text-lg font-bold mb-4">{t("contactInfo")}</h4>
             <div className="space-y-2 text-gray-400 text-sm">
-              <p>📍 Urlabari-03, Mangalbare, Morang</p>
-              <p>📞 +977 9811062363</p>
-              <p>💬 WhatsApp: +977 9827309655</p>
-              <p>⏰ 5 AM - 8 PM Daily</p>
+              <p>{t("locationLine")}</p>
+              <p>{t("phoneLine")}</p>
+              <p>{t("whatsappLine")}</p>
+              <p>{t("hoursLine")}</p>
             </div>
           </div>
         </div>
 
-        <div className="border-t border-gray-700 pt-8">
+        <div className="border-t border-white/10 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm">
             <p>
               © {currentYear} {t("farmName")}. {t("allRightsReserved")}.
             </p>
-            <p className="mt-4 md:mt-0">
-              Built with ❤️ for our village community
-            </p>
+            <p className="mt-4 md:mt-0">{t("builtBy")}</p>
           </div>
         </div>
       </div>

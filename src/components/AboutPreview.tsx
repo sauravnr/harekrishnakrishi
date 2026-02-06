@@ -18,7 +18,7 @@ export default function AboutPreview() {
           {/* Content */}
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-green-800 mb-6">
-              Who Are We?
+              {t("aboutPreviewTitle")}
             </h2>
             <p className="text-lg text-gray-900 mb-6 leading-relaxed">
               {t("aboutPreview")}
@@ -27,7 +27,7 @@ export default function AboutPreview() {
               href="/about"
               className="bg-green-700 text-white px-6 py-3 rounded-lg hover:bg-green-800 transition font-semibold inline-block"
             >
-              Learn More About Us →
+              {t("aboutPreviewCta")}
             </Link>
           </div>
         </div>

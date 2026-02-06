@@ -1,6 +1,6 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { useRouter, usePathname } from "next/navigation";
 import Link from "next/link";
 import { useState } from "react";
@@ -9,14 +9,16 @@ export default function Navbar() {
   const t = useTranslations("nav");
   const router = useRouter();
   const pathname = usePathname();
+  const locale = useLocale();
   const [isOpen, setIsOpen] = useState(false);
 
-  const currentLocale = pathname.split("/")[1] || "en";
-  const otherLocale = currentLocale === "en" ? "ne" : "en";
-  const pathWithoutLocale = pathname.replace(`/${currentLocale}`, "") || "/";
+  const otherLocale = locale === "en" ? "ne" : "en";
+  const pathWithoutLocale = pathname.replace(/^\/(en|ne)(?=\/|$)/, "") || "/";
 
   const toggleLanguage = () => {
-    router.push(`/${otherLocale}${pathWithoutLocale}`);
+    const nextPath =
+      pathWithoutLocale === "/" ? `/${otherLocale}` : `/${otherLocale}${pathWithoutLocale}`;
+    router.push(nextPath);
   };
 
   const navItems = [
@@ -37,7 +39,7 @@ export default function Navbar() {
             <span className="text-3xl">🐄</span>
             <div className="hidden sm:block">
               <h1 className="text-sm font-bold leading-tight">Hare Krishna</h1>
-              <p className="text-xs text-green-200">Dairy Farm</p>
+              <p className="text-xs text-green-200">{t("subtitle")}</p>
             </div>
           </Link>
 

@@ -88,8 +88,7 @@ export default function ContactPage() {
 
           <div className="mt-6 p-4 bg-amber-50 rounded-lg border-l-4 border-amber-600">
             <p className="text-sm text-gray-800">
-              ⏰ <strong>Note:</strong> Best time to reach us is early morning
-              (5-8 AM) or evening (4-7 PM)
+              ⏰ <strong>{t("noteLabel")}</strong> {t("bestTimeNote")}
             </p>
           </div>
         </div>
